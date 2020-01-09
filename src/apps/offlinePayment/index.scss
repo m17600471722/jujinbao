@@ -1,0 +1,85 @@
+.Global-color {
+  .logIn-loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: 0.3;
+    z-index: 99999999;
+  }
+  .exten{
+      display: flex;
+      flex-direction: column;
+      padding: 0.3rem 0.8rem;
+      .exten_list{
+        .extenli{
+          display: flex;
+          justify-content: space-between;
+          padding: .3rem 0;
+          font-size: 0.41rem;
+          color: #323232;
+          .textval{
+            color: #a0a0a0;
+          }
+          .remark{
+            width: 80%;
+            color: #a0a0a0;
+          }
+        }
+      }
+      .tipText{
+        margin-top: 0.3rem;
+        color: #A8ACB6;
+      }
+      .extension_btn{
+        margin-top: 1.5rem;
+        background-color: #F83106;
+        font-size: (30/75)+rem;
+        border-radius: (42/75)+rem;
+      }
+  }
+  .scan_code{
+    text-align: center;
+    padding: (50/75)+rem (120/75)+rem 0 (120/75)+rem;
+    span{
+      font-size: (40/75)+rem;
+      color: #424141;
+      font-weight: bold;
+    }
+    .price{
+      font-size: (40/75)+rem;
+      margin-bottom: (50/75)+rem;
+      color: #424141;
+      font-weight: bold;
+    }
+    img{
+      width: 100%;
+      // height: (400/75)+rem;
+      margin:  0 auto;
+    }
+    .pay_way{
+      font-size: (40/75)+rem;
+      font-weight: bold;
+      margin-top: (50/75)+rem;
+      color: #525252;
+    }
+  }
+  .remarks{
+    padding: (30/75)+rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: (60/75)+rem;
+    span{
+      font-size: (32/75)+rem;
+    }
+    p{
+      width: 80%;
+      margin-left: (20/75)+rem;
+      font-size: (26/75)+rem;
+      text-align: left;
+    }
+  }
+}
+

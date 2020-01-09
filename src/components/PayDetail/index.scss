@@ -1,0 +1,85 @@
+.Global-color {
+  .logIn-loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: 0.3;
+    z-index: 99999999;
+  }
+  .repaymentAmount{
+    background: #FFA000;
+    padding: (57/75)+rem 0 (58/75)+rem (62/75)+rem;
+    p:first-child{
+      font-size: (32/75)+rem;
+      color: #ffffff;
+    }
+    p:last-child{
+      font-size: (64/75)+rem;
+      color: #fff;
+      margin-top: (30/75)+rem;
+    }
+  }
+
+  .exten{
+      display: flex;
+      flex-direction: column;
+      padding: 0 0.8rem;
+      .exten_list{
+        .extenli{
+          display: flex;
+          justify-content: space-between;
+          line-height: 1.5rem;
+          font-size: 0.35rem;
+          color: #323232;
+          .textval{
+            color: #666666;
+          }
+        }
+      }
+      .tipText{
+        margin-top: 0.3rem;
+        color: #A8ACB6;
+      }
+      .extension_btn{
+        margin-top: 1.5rem;
+        background-color: #F83106;
+        font-size: (30/75)+rem;
+        border-radius: (42/75)+rem;
+      }
+  }
+}
+.verificationcode2 {
+  width: 2.7rem;
+  span {
+    display: inline-block;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    width: 2.7rem;
+    text-align: center;
+    padding: 0 0.2666666667rem !important;
+  }
+}
+.content-area {
+  display: flex;
+}
+.text {
+  width: (150/75)+rem;
+  font-size: 0.35rem;
+  color: #A8ACB6;
+  line-height: (80/75)+rem;
+}
+
+.verificationcode {
+  line-height: (80/75)+rem;
+
+  span {
+    background: #F83106 ;
+    color: #fff;
+    font-size: (28/75)+rem;
+    padding: (6/75)+rem (20/75)+rem;
+  }
+}
+
